@@ -1,0 +1,58 @@
+.container{
+    background-color: #4a4848;
+    height: 500px;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    background-color: black;
+    color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 70px;
+    height: 300px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 20px red;
+}
+
+td{
+    border: 0.5px solid white;
+    /* border-collapse: collapse; */
+    font-size: 14px;
+}
+#COMPARE{
+    background-color: white;
+    color: black;
+}
+#STARTER{
+    background-color: orange;
+    text-align: center;
+}
+#ADVANCE{
+    background-color: red;
+    text-align: center;
+}
+#ENTERPRISE{
+    background-color: turquoise;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+#mouse:hover{
+    /* width: 150px; */
+    transform: scale(1.5);
+    transition: 0.1s;
+    background-color: black;
+}
+
+table:hover{
+    box-shadow: 10px 10px 20px orange;
+
+}
